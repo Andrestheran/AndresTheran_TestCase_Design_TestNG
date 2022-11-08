@@ -11,12 +11,12 @@ public class Loggers {
 
     @DataProvider (name = "LoginInfo")
     public Object [][] getLoginInfo() {
-        return new Object[][] {{"email1@email.com", "password1"}, {"email2@email.com", "password2"}, {"email3@email.com", "password3"}};
+        return new Object[][] {{"email0@email.com0", "password"}, {"email01@email.com1", "password1"}, {"email2@email.com", "password2"}};
     }
 
     @DataProvider (name = "InvalidInfo")
     public Object [][] getInvalidInfo() {
-        return new Object[][] {{"email4@email.com", "password4"}, {"email5@email.com", "password5"}, {"email6@email.com", "password6"}};
+        return new Object[][] {{"email3@email.com", "password3"}, {"email4@email.com", "password4"}, {"email5@email.com", "password5"}};
     }
 
     @BeforeSuite
